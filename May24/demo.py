@@ -2,6 +2,7 @@ def greetings():
     print()
     print("\tWelcome to The Bank")
     print()
+    print()
     print("option 1: Deposite")
     print("option 2: Withdraw")
     print("Option 3: Check Balance")
