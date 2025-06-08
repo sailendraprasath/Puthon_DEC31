@@ -1,4 +1,4 @@
-store = [1,2,3,4,5]
-show = store.index(3)
+store = [68,48,10,55,35,98,417,52]
 print(store)
-print(show)
+store.extend([100, 200, 300])
+print(store)
