@@ -1,10 +1,10 @@
-data = [35,56,78,36,94,2]
+data = [35,56,78,36,94]
 
-min_val = data[0]
+max_val = data[0]
 for num in data:
-    if num < min_val:
-        min_val = num
-print(min_val)
+    if num > max_val:
+        max_val = num
+print(max_val)
 
 
 
