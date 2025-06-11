@@ -1,10 +1,8 @@
-data = [35,56,78,36,94]
-
-max_val = data[0]
-for num in data:
-    if num > max_val:
-        max_val = num
-print(max_val)
-
+data = [59,32,35,64,88,52,45,55]
+my_max = data[0]
+for val in data:
+    if val > my_max:
+        my_max = val
+print(my_max)
 
 
