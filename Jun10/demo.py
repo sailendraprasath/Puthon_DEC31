@@ -4,5 +4,3 @@ for val in data:
     if val > my_max:
         my_max = val
 print(my_max)
-
-
