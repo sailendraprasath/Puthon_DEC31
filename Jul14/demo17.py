@@ -24,3 +24,4 @@ else:
         print("Anagrams")
     else:
         print("Not anagrams")
+
