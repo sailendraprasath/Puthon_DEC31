@@ -14,3 +14,8 @@ for letter in list_words:
     final_result.append(reverse_one_word)
 
 print(final_result)
+
+
+words = "Sailendra prasath"
+reversed_words = [word[::-1] for word in words.split()]
+print(" ".join(reversed_words))
