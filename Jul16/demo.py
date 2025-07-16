@@ -7,3 +7,4 @@ for i in words:
         store[i] = 1
 for letter,count in store.items():
     print("letters",letter,"count",count)
+print(store.items())
