@@ -16,6 +16,5 @@ def longest_common_suffix(strs):
 
     return prefix[::-1]
 
-
 strs = input("Enter words separated by space: ").split()
 print("Longest Common Suffix:", longest_common_suffix(strs))
