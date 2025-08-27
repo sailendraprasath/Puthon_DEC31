@@ -1,2 +1,3 @@
-for i in range(1,41):
-    print(f'{i})')
+def addnum(*args):
+    return sum(args)
+print(addnum(1,2,3))
