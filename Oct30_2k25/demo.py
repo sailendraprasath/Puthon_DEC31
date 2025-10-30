@@ -1,6 +1,7 @@
 class Demo:
     def add(self,*args):
         digit = 0
+        print("welcome")
         for val in args:
             digit += val
         return digit
