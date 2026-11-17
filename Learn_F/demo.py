@@ -1,14 +1,24 @@
-class Emp:
+from abc import ABC, abstractmethod
 
-    def __init__(self,name,salary):
-        self.name = name
-        self.salary = salary
+class Animal(ABC):
 
-    def display(self):
-        return self.name, self.salary
+    @abstractmethod
+    def sound(self):
+        pass
 
-emp1 = Emp("Sailesh","45,000")
-emp2 = Emp("MrTetPie","1 Crore per month")
+class Dog(Animal):
 
-print(emp1.display())
-print(emp2.display())
+    def sound(self):
+        print("Dog barks")
+
+class Cat(Animal):
+
+    def sound(self):
+        print("Cat meows")
+
+
+d = Dog()
+d.sound()
+
+c = Cat()
+c.sound()
